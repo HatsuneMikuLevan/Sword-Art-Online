@@ -6,9 +6,10 @@ int main() {
     setlocale(LC_ALL, "Russian");
     std::string name;
 
-    std::cout << "Ââåäèòå âàøå èìÿ: ";
-    std::getline(std::cin, name);  // Èñïîëüçóåì getline äëÿ ñ÷èòûâàíèÿ ñòðîêè ñ ïðîáåëàìè
-    std::cout << "Âû ââåëè èìÿ: " << name << std::endl;
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¢Ã Ã¸Ã¥ Ã¨Ã¬Ã¿: ";
+    std::getline(std::cin, name);  // ÃˆÃ±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã¬ getline Ã¤Ã«Ã¿ Ã±Ã·Ã¨Ã²Ã»Ã¢Ã Ã­Ã¨Ã¿ Ã±Ã²Ã°Ã®ÃªÃ¨ Ã± Ã¯Ã°Ã®Ã¡Ã¥Ã«Ã Ã¬Ã¨
+    std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã¨Ã¬Ã¿: " << name << std::endl;
 
     return 0;
+
 }
