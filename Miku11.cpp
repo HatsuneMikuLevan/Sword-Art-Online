@@ -1,14 +1,14 @@
-
-#include <iostream>
-#include <string>
+#include <iostream> 
+#include <string>    
 
 int main() {
+
     setlocale(LC_ALL, "Russian");
     std::string name;
 
-    std::cout << "Введите ваше имя: ";
-    std::getline(std::cin, name);  // Используем getline для считывания строки с пробелами
-    std::cout << "Вы ввели имя: " << name << std::endl;
+    std::cout << "Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ С„СѓС‚Р±РѕР»СЊРЅРѕР№ РєРѕРјР°РЅРґС‹: ";
+    std::cin >> name;
+    std::cout << name << " - СЌС‚Рѕ С‡РµРјРїРёРѕРЅ! " << std::endl;
 
     return 0;
 }
