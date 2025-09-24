@@ -1,10 +1,13 @@
-#include <iostream>   
+#include <iostream> 
+#include <string>
 
 int main() {
-    setlocale(LC_ALL, "Russian");
-    int number; 
+    
+    
+    std::string number; 
     std::cin >> number;
-    std::cout  << number << " - âîò òàêîå ÷èñëî Âû ââåëè ";
+    std::cout  << number << " - Ð²Ð¾Ñ‚ ÐºÐ°ÐºÐ¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ ";
 
     return 0;
+
 }
