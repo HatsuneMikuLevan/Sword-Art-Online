@@ -8,4 +8,5 @@ int main() {
     std::cout << a << " " << b << " " << c;
 
     return 0;
+
 }
