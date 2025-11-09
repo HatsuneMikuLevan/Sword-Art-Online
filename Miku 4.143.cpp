@@ -1,4 +1,4 @@
-4.143
+
 
 #include <iostream>
 
