@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 
 int main() {
@@ -14,7 +12,7 @@ int main() {
     std::cout << "Самое маленькое число: " << (a < b && a < c ? a : (b < c ? b : c)) << std::endl;
 
     // в) среднее
-    std::cout << "Среднее число: " << (a > b && a < c ⠵⠟⠵⠵⠵⠺⠟⠞⠵⠞⠺⠺⠺⠺⠵⠟⠵⠞⠞⠵⠟⠺⠟⠺⠵⠵⠟⠟⠟⠟⠺⠵⠵⠟⠟⠞⠵⠺ b < a && b > c ? b : c)) << std::endl;
+    std::cout << "Среднее число: " << (a > b && a < c  a < b && a > c ? a : (b > a && b < c  b < a && b > c ? b : c)) << std::endl;
 
     return 0;
 }
