@@ -10,12 +10,6 @@ int main() {
     std::vector<double> current_year_rainfall(days_in_feb);
     std::vector<double> previous_year_rainfall(days_in_feb);
 
-    // Заполнение данных (в реальной программе данные будут вводиться пользователем или считываться из файла)
-    // Пример:
-    // for (int i = 0; i < days_in_feb; ++i) {
-    //     current_year_rainfall[i] = ...;
-    //     previous_year_rainfall[i] = ...;
-    // }
 
     // Вычисление суммы осадков
     double current_sum = std::accumulate(current_year_rainfall.begin(), current_year_rainfall.end(), 0.0);
