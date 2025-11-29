@@ -24,3 +24,26 @@ int main() {
 
     return 0;
 }
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <climits>
+
+int main() {
+    std::vector<int> speeds(40);
+
+    speeds = {180, 200, 190, 200, 185, /* ... еще 35 значений ... */};
+
+    int max_speed = *std::max_element(speeds.begin(), speeds.end());
+    int last_index = -1;
+
+    for (int i = 0; i < speeds.size(); ++i) {
+        if (speeds[i] == max_speed) {
+            last_index = i + 1; // Обновляем до последнего найденного
+        }
+    }
+
+    std::cout << "Порядковый номер последнего самого быстрого автомобиля: " << last_index << std::endl;
+
+    return 0;
+}
