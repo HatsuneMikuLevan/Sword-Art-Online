@@ -22,3 +22,28 @@ int main() {
 
     return 0;
 }
+
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string word;
+    cout << "Введите слово из 12 букв: ";
+    cin >> word;
+
+    if (word.length() == 12) {
+        string part1 = word.substr(0, 4);   // первая треть
+        string part2 = word.substr(4, 4);   // вторая треть
+        string part3 = word.substr(8, 4);   // третья треть
+
+        string result = part3 + part1 + part2; // 3 -> 1, 1 -> 2, 2 -> 3
+        cout << "Результат (б): " << result << endl;
+    } else {
+        cout << "Слово должно содержать ровно 12 букв." << endl;
+    }
+
+    return 0;
+}
